@@ -1,0 +1,126 @@
+.wrapper {
+    color:#404040;
+    font:16px normal helvetica, arial, sans-serif;
+    position:relative;
+    height: 100%;
+    background-color:#fff;
+    overflow:auto;
+}
+
+.inner {
+    padding:2rem;
+}
+
+.wrapper h1 {
+    margin:0.5rem 0;
+    padding:0.5rem 0 1.5rem;
+    line-height: 2.25rem;
+    font-size:44px;
+    font-weight:bold;
+    border-bottom:1px solid #ccc;
+}
+
+.wrapper h2 {
+    margin:0.5rem 0;
+    padding:0.5rem 0;
+    line-height: 2.25rem;
+    font-size:32px;
+    font-weight:bold;
+}
+
+
+.wrapper h3 {
+    margin:0.5rem 0 0 0;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.wrapper p { padding: 0 0 0.5rem; }
+.wrapper a { color:#404040; }
+
+.wrapper hr {
+    margin: 2rem 0 1rem;
+    height:0; line-height:0;
+    border:0;
+    border-top:1px solid #ccc;
+}
+
+.wrapper button {
+    display: inline-block;
+    position: relative;
+    font-size: 0.875rem;
+    padding: 16px 32px 16px 32px;
+    margin:0 10px 0 0;
+    line-height: 1.125rem;
+    background-color: #404040;
+    border: 1px solid #404040;
+    -webkit-transition: background-color 0.2s ease;
+    -moz-transition: background-color 0.2s ease;
+    -ms-transition: background-color 0.2s ease;
+    -o-transition: background-color 0.2s ease;
+    transition: background-color 0.2s ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight:bold;
+}
+
+.wrapper button:hover {
+    text-decoration: underline;
+    background-color: #121212;
+}
+
+.wrapper button:disabled {
+    background-color: #eeeeee;
+}
+
+#save-load-text {
+    margin:0.5rem 0;
+    padding:1.1rem;
+    display:none;
+    font-size:1rem;
+    background-color:#dcdcdc;
+}
+
+#audio-label {
+    font-size:1.3rem;
+    font-weight:bold;
+    color:#e6711b;
+    text-transform:capitalize;
+}
+
+.dev-input {
+    width: 300px;
+    margin-bottom:1.1rem;
+    padding:0.5rem;
+    font-size:1.2rem;
+    color:#848484;
+    font-weight:normal;
+    border:1px solid #dcdcdc;
+}
+
+.dev-input.in-label {
+    margin-left:10px;
+}
+
+.dev-input.strong-text {
+    font-weight:bold;
+    color:#404040;
+}
+
+#ws-terminal {
+    border:1px solid #dcdcdc;
+    margin-bottom:1.1rem;
+    font-size:1.1rem;
+    color:#848484;
+    font-weight:normal;
+    overflow-y: scroll;
+}
+
+em {
+    font-style: italic;
+}
